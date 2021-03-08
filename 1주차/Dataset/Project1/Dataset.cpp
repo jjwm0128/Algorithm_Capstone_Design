@@ -5,6 +5,7 @@ void orderset(int* arr);
 void reverseSet(int* arr);
 int main(void)
 {
+	cout << "12171856 주우민 첫번째 실습 과제" << endl;
 	int arr[10];
 	int temOr[10];
 	int temRe[10];
@@ -35,8 +36,6 @@ int main(void)
 		cout << temOr[i] << ", ";
 	}
 	cout << temOr[9] << endl;
-
-	cout << "12171856 주우민 첫번째 실습 과제" << endl;
 }
 void swap(int* a, int* b)
 {
